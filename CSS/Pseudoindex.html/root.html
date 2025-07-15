@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>:root Pseudo-Class Example</title>
+  <style>
+    /* Define CSS variables in :root */
+    :root {
+      --main-bg-color: #f0f8ff;
+      --main-text-color: #003366;
+      --highlight-color: #ffcc00;
+    }
+
+    body {
+      background-color: var(--main-bg-color);
+      color: var(--main-text-color);
+      font-family: Arial, sans-serif;
+      padding: 30px;
+    }
+
+    h1 {
+      color: var(--highlight-color);
+    }
+
+    p {
+      font-size: 18px;
+    }
+
+    a {
+      color: var(--main-text-color);
+      text-decoration: none;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>:root Pseudo-Class Demo</h1>
+  <p>
+    This page uses CSS variables defined in the <code>:root</code> pseudo-class to style the background and text colors.
+  </p>
+
+  <p>
+    Visit <a href="#">this link</a> to learn more.
+  </p>
+
+</body>
+</html>

@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Overlapping Squares</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      display: flex;
+      align-items: center;
+      height: 100vh;
+      background: white;
+    }
+
+    .container {
+      position: relative;
+      width: 400px;
+      height: 400px;
+    }
+
+    .square {
+      width: 60px;
+      height: 60px;
+      position: absolute;
+      border: 2px solid black;
+    }
+
+    .red{ background: red;         
+          top: 10px;    left: 170px;
+          z-index: 0;
+             }
+    
+    .green1 { background: green;    
+              top: 60px;   left: 130px; 
+              z-index: -1;
+            }
+
+    .green2  { background: green;  
+             top: 60px;   left: 210px;
+             z-index: -1;
+             }
+
+    .blue1   { background: blue;   
+             top: 110px;  left: 90px;
+             z-index: -2; 
+             }
+
+    .blue2   { background: blue;    
+             top: 110px;  left: 250px; 
+             z-index: -2;
+            }
+
+    .yellow1 { background: yellowgreen; 
+              top: 150px;  left: 50px;
+              z-index: -3;
+             }
+
+    .yellow2 { background: yellowgreen;
+              top: 150px;  left: 290px;
+              z-index: -3;
+             }
+
+    .pink1   { background: pink;    
+             top: 200px;  left: 10px; 
+             z-index: -4;
+            }
+
+    .pink2   { background: pink;   
+             top: 200px;  left: 330px; 
+             z-index: -4;
+            }
+
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="square red"></div>
+    
+    <div class="square green1"></div>
+    <div class="square green2"></div>
+    
+    <div class="square blue1"></div>
+    <div class="square blue2"></div>
+    
+    <div class="square yellow1"></div>
+    <div class="square yellow2"></div>
+    
+    <div class="square pink1"></div>
+    <div class="square pink2"></div>
+  </div>
+</body>
+</html>
+

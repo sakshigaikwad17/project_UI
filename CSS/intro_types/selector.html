@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /*universal selector*/
+        *{
+            border: 0cqmin;
+        }
+        /*SELECTORS*/
+        /* ID SELECTORS (LATEST SELECTOR) */
+        #demo{
+            color:crimson;
+        }
+        /*ELEMENT SELECTOR RAG SELECTOR*/
+        p{
+            color: blue;
+        }
+        /*class selector*/
+        .demo1{
+            color:blueviolet;
+        }
+        /*Group Selector*/
+        #demo1,.demo1{
+            color:darkred;
+        }
+        
+        /*Attribute selector*/
+        /*input[type]*/
+        
+    </style>
+    <link rel="stylesheet" href="selector.css">
+</head>
+<body>
+    <!--priority-->
+    <!-- Inline >internal=external -->
+    <!--preference-->
+    <!-- Inline<internal<external -->
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+       Consequatur quisquam laboriosam iste eius itaque iure eum blanditiis praesentium
+       numquam corrupti nisi eos et odio perferendis, a, nam deleniti distinctio enim!</p>
+       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+       Consequatur quisquam laboriosam iste eius itaque iure eum blanditiis praesentium
+       numquam corrupti nisi eos et odio perferendis, a, nam deleniti distinctio enim!</p>
+       <p class="demo1">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+       Consequatur quisquam laboriosam iste eius itaque iure eum blanditiis praesentium
+       numquam corrupti nisi eos et odio perferendis, a, nam deleniti distinctio enim!</p>
+       
+
+       <input type="text" placeholder="Enter Name">
+       <input type="Email" placeholder="Enter Email">
+       <input type="password" placeholder="Enter password">
+
+       <a href="A">Click</a>
+       <a href="B">Click</a>
+       <a href="C">Click</a>
+
+       <section>
+        <div>
+            <p>
+                <span>This is inside</span>
+            </p>
+        </div>
+       </section>
+
+       <section>
+        <div>
+                <span>This is inside</span>
+        </div>
+       </section>
+
+       <span>This is outside</span>
+
+
+</body>
+</html>

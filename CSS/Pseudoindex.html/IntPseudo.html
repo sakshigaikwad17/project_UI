@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> <input Pseudo-Classes Example</title>
+    <style>
+        input:focus{
+            background-color: blue;
+        }
+
+        input:checked{
+            color: green;
+            font-weight: bold;
+        }
+        
+        input:valid {
+      border: 2px solid green;
+       }
+
+        input:invalid {
+        border: 2px solid red;
+       }
+
+    </style>
+</head>
+<body>
+    <h2>Input Pseudo-Classes Demo</h2>
+
+  <form>
+    <label>Required Email (valid/invalid):</label><br>
+    <input type="email" required><br><br>
+
+    <label>Disabled Input:</label><br>
+    <input type="text" disabled value="Can't type"><br><br>
+
+    <label>Enabled Input (focus effect):</label><br>
+    <input type="text" placeholder="Click me"><br><br>
+
+    <input type="checkbox" id="check1">
+    <label for="check1">I agree</label><br><br>
+  </form>
+
+  <!-- Anchor link (not affected by input pseudo-classes) -->
+  <a href="#">Go to another page</a>
+
+
+    
+</body>
+</html>

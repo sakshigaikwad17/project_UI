@@ -1,0 +1,40 @@
+<!-- 1) create file with name linkPseudo.html and add anchor in that and apply the link related pseudo classes on that--!>
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Link Pseudo-Classes Example</title>
+  <style>
+    /* Unvisited link */
+    a:link {
+      color: blue;
+      text-decoration: none;
+    }
+
+    /* Visited link */
+    a:visited {
+      color: purple;
+    }
+
+    /* Active link (when clicked) */
+    a:active {
+      color: green;
+    }
+
+  </style>
+</head>
+<body>
+
+  <h2>CSS Link Pseudo-Classes Demo</h2>
+
+  <p>
+    Visit these links to see how the styles change:
+  </p>
+
+  <ul>
+    <li><a href="https://www.google.com/" target="_blank">Google</a></li>
+    <li><a href="https://itedutech.in/" target="_blank">Lms</a></li>
+    <li><a href="https://github.com/" target="_blank">GitHub</a></li>
+  </ul>
+
+</body>
+</html>

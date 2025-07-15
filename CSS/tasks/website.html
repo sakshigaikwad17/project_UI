@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>responsive web</title>
+  <style>
+    * {
+      margin: 0;
+      padding:0;
+      box-sizing: border-box;
+    }
+
+    body { font-family: Arial , sans-serif;
+      background-color: blanchedalmond;
+      color: #333;
+      scroll-behavior: smooth;
+      }
+
+     header {
+      background-color: #222;
+      padding: 1rem 2rem;
+      display:flex;
+      justify-content: space-between;
+      align-items: center;
+     }
+      .logo {
+      color: white;
+      font-size: 1.5rem;
+    }
+
+    nav ul {
+      display: flex;
+      list-style: none;
+      gap: 1rem;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+    }
+
+    nav a:hover {
+      color: #00ffff;
+    }
+
+    section {
+      padding: 3rem 2rem;
+      text-align: center;
+    }
+
+    .hero {
+      background: #0072ff;
+      color: white;
+    }
+
+    .hero img {
+      max-width: 100%;
+      height: auto;
+      margin-bottom: 1rem;
+    }
+
+    .btn {
+      display: inline-block;
+      margin-top: 1rem;
+      padding: 0.5rem 1rem;
+      background: white;
+      color: #0072ff;
+      text-decoration: none;
+      border-radius: 5px;
+    }
+
+    ul.services-list {
+      list-style-type: none;
+      margin-top: 1rem;
+    }
+
+    .contact-form {
+      max-width: 500px;
+      margin: auto;
+      text-align: left;
+      display: flex;
+      flex-direction: column;
+      gap: 1rem;
+    }
+
+    .contact-form input,
+    .contact-form textarea {
+      padding: 0.5rem;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+    }
+
+    .contact-form button {
+      padding: 0.5rem;
+      background: #0072ff;
+      color: white;
+      border: none;
+      border-radius: 5px;
+    }
+
+    footer {
+      background: #222;
+      color: white;
+      text-align: center;
+      padding: 1rem;
+      margin-top: 2rem;
+    }
+  </style>
+</head>
+<body>
+
+
+  <!--Home Section-->
+  <section class="hero" id="Home">
+    <img src="https://via.placeholder.com/900x300?text=Banner+Image" alt="Banner">
+    <h2>Welcome to My Website</h2>
+    <p>We design simple and modern websites.</p>
+    <a href="#services" class="btn">View Services</a>
+
+  </section>
+   <!-- About Section -->
+  <section id="about">
+    <h2>About Us</h2>
+    <p>We are a team of passionate web developers who create clean and responsive websites.</p>
+  </section>
+
+  <!-- Services Section -->
+  <section id="services">
+    <h2>Our Services</h2>
+    <ul class="services-list">
+      <li>🌐 Website Design</li>
+      <li>⚙️ Development</li>
+      <li>📱 Mobile-Responsive Layouts</li>
+    </ul>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact">
+    <h2>Contact Us</h2>
+    <form class="contact-form">
+      <label>Name:</label>
+      <input type="text" required>
+
+      <label>Email:</label>
+      <input type="email" required>
+
+      <label>Message:</label>
+      <textarea rows="5" required></textarea>
+
+      <button type="submit">Send</button>
+    </form>
+  </section>
+
+  
+  
+
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2025 MySite. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>

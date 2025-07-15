@@ -1,0 +1,58 @@
+2) create file with name positionPseudo.html and add anchor in that and apply the position related pseudo classes on that-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>positionPseudo.html</title>
+     <style>
+    /* Common anchor style */
+    a {
+      background-color: rgb(207, 14, 14);
+      color: black;
+     }
+
+    /* First anchor in the list */
+    a:first-child {
+      background-color: lightblue;
+    }
+
+    /* Last anchor in the list */
+    a:last-child {
+      background-color: rgb(46, 69, 142);
+    }
+
+    /* Second anchor */
+    a:first-child {
+      background-color: rgb(57, 197, 96);
+    }
+
+    /* Every odd anchor */
+    a:nth-child(odd) {
+      font-weight: bold;
+    }
+
+    /* Every even anchor */
+    a:nth-child(even) {
+      font-style: italic;
+    }
+  </style>
+</head>
+<body>
+
+  <h2>Anchor Position Pseudo-Class Example</h2>
+
+  <!-- Anchor tags inside a container -->
+  <div>
+    <a href="#">Link 1</a><br>
+    <a href="#">Link 2</a><br>
+    <a href="#">Link 3</a><br>
+    <a href="#">Link 4</a><br>
+    <a href="#">Link 5</a><br>
+  </div>
+
+</head>
+<body>
+    
+</body>
+</html>
