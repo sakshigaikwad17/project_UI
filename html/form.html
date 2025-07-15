@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Simple HTML Form</title>
+</head>
+<body>
+    <h2  >Contact Form</h2>
+    <form action="#" method="post">
+        <!-- Name Field -->
+        <label for="name">Name:</label><br>
+        <input type="text" id="name" name="name" required><br><br>
+
+        <!-- Email Field -->
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email" required><br><br>
+        
+        <!---Education-->
+        <label>Education :</label><br>
+        <input type="radio" id="10th" name="Education" value="10th">
+        <label for="10th">10th</label><br>
+        <input type="radio" id="12th" name="Education" value="HSC">
+        <label for="12th">12th</label><br>
+        <input type="radio" id="GRADUATION" name="Education" value="12th">
+        <label for="GRADUATION">Graduation</label><br>
+         <input type="radio" id="Post Graduation" name="Education" value="Post Graduation">
+        <label for="Post Graduation">Post Graduation</label><br>
+        <br>
+
+        <!-- Gender Selection -->
+        <label>Gender:</label><br>
+        <input type="radio" id="male" name="gender" value="male">
+        <label for="male">Male</label><br>
+        <input type="radio" id="female" name="gender" value="female">
+        <label for="female">Female</label><br><br>
+
+        <!--domian selection-->
+        <label>Domian :</label><br>
+        <input type="radio" id="full stack python + DA" name="Domain" value="full stack python + DA">
+        <label for="full stack python + DA">Full stack python + DA</label><br>
+        <input type="radio" id="full stack Java" name="Domain" value="full stack Java">
+        <label for="full stack Java">Full stack Java</label><br>
+        <input type="radio" id="UI/UX" name="Domain" value="UI/UX">
+        <label for="UI/UX">UI/UX</label><br><br>
+
+        <!-- Any Query -->
+        <label for="message">Message:</label><br>
+        <textarea id="message" name="message" rows="4" cols="30"></textarea><br><br>
+
+        <!-- Submit Button -->
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>

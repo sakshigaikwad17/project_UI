@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Registration Form</title>
+</head>
+<body>
+
+  <h2>Registration Form</h2>
+
+  <form action="submit.php" method="post">
+
+    <!-- Full Name -->
+    <label for="fullname">Full Name:</label><br>
+    <input type="text" id="fullname" name="fullname" required><br><br>
+
+    <!-- Email -->
+    <label for="email">Email:</label><br>
+    <input type="email" id="email" name="email" required><br><br>
+
+    <!-- Password -->
+    <label for="password">Password:</label><br>
+    <input type="password" id="password" name="password" required><br><br>
+
+    <!-- Date of Birth -->
+    <label for="dob">Date of Birth:</label><br>
+    <input type="date" id="dob" name="dob" required><br><br>
+
+    <!-- Gender -->
+    <label>Gender:</label><br>
+    <input type="radio" id="male" name="gender" value="Male">
+    <label for="male">Male</label><br>
+    <input type="radio" id="female" name="gender" value="Female">
+    <label for="female">Female</label><br><br>
+
+    <!-- Languages Known -->
+    <label>Languages Known:</label><br>
+    <input type="checkbox" name="language" value="HTML"> HTML<br>
+    <input type="checkbox" name="language" value="CSS"> CSS<br>
+    <input type="checkbox" name="language" value="JavaScript"> JavaScript<br><br>
+
+    <!-- City Dropdown -->
+    <label for="city">Select City:</label><br>
+    <select id="city" name="city">
+      <option value="Pune">Pune</option>
+      <option value="Mumbai">Mumbai</option>
+      <option value="Delhi">Delhi</option>
+    </select><br><br>
+
+    <!-- Message Box -->
+    <label for="message">Your Message:</label><br>
+    <textarea id="message" name="message" rows="4" cols="40"></textarea><br><br>
+
+    <!-- Submit and Reset -->
+    <input type="submit" value="Submit">
+    <input type="reset" value="Reset">
+
+  </form>
+
+</body>
+</html>

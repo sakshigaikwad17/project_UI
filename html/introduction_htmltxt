@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <title>Introdution </title>
+        
+    </head>
+    <body>
+-
+        <h1 style="color: red;">INT<span style="color: green;">RODUCTION</span></h1>
+        <p><h2 style="color:rgb(180, 11, 253);">Hello , I'm  Sakshi Nitin</h2></p>
+        <p><b><u>Education :-</u></b> I am Currently Studying <b><i>B.sc. in computer science</b></i>. </p>
+        <p><b><u>Skills :-</u></b> I Know programming lanuagage like <b><h style="color:rgb(255, 0, 21);"> <b>C</b> ,<b>Python</b>, and <b>Sql</b>.</h></b></p>
+        <p><b><u>Strength  :-</u></b>My Strength is  <b>i can adpt Quickly to any Envirnoment</b> and <b> Good Team Work</b>.</p>
+        <p><b><u>Hoobies :-</u></b> My Hoobies is <b>Reading books</b> and <b>To learn new skills</b>.</p>
+        <p><b><u>Interested :-</u></b> I am Interested in <b>Data Analyst</b> and <b>Web devlopment</b>.</p>
+        <p><b>Email :- <b>sakshigaikwad82050@gmail.com</b></p>
+
+
+    </body>
+</html>    
+
+        
+        
+
+    
+
+
+
+
